@@ -1,0 +1,32 @@
+[0m23:01:37.989373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1033e4500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104373a10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x104373980>]}
+
+
+============================== 23:01:37.991733 | edafc704-155e-4959-b69c-6c73275504e2 ==============================
+[0m23:01:37.991733 [info ] [MainThread]: Running with dbt=1.9.3
+[0m23:01:37.991993 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/Users/aveen/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt init', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m23:01:37.998687 [warn ] [MainThread]: [ConfigFolderDirectory]: Unable to parse logging event dictionary. Failed to parse dir field: expected string or bytes-like object, got 'PosixPath'.. Dictionary: {'dir': PosixPath('/Users/aveen/.dbt')}
+[0m23:01:37.998882 [info ] [MainThread]: Creating dbt configuration folder at 
+[0m23:01:50.217432 [debug] [MainThread]: Starter project path: /opt/anaconda3/lib/python3.12/site-packages/dbt/include/starter_project
+[0m23:01:50.223494 [info ] [MainThread]: 
+Your new dbt project "nyc_parking_violations" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m23:01:50.223837 [info ] [MainThread]: Setting up your profile.
+[0m23:01:54.555357 [info ] [MainThread]: Profile nyc_parking_violations written to /Users/aveen/.dbt/profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m23:01:54.560550 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 16.595972, "process_in_blocks": "0", "process_kernel_time": 0.126495, "process_mem_max_rss": "115982336", "process_out_blocks": "0", "process_user_time": 0.564067}
+[0m23:01:54.560904 [debug] [MainThread]: Command `dbt init` succeeded at 23:01:54.560828 after 16.60 seconds
+[0m23:01:54.561114 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x1045e4bc0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105330740>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x105bd3590>]}
+[0m23:01:54.561318 [debug] [MainThread]: Flushing usage events
+[0m23:01:55.768274 [debug] [MainThread]: An error was encountered while trying to flush usage events
